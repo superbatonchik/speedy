@@ -30,5 +30,4 @@ void loop() {
 
 	String out = "[lat: " + String(lat,6) + "] [long: " + String(lon,6) + "] [speed: " + String(speed,3) + "] [satts: " + String(satts) + "]";
 	Serial.println(out);
-	delay(1000);
 }

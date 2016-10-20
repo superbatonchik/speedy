@@ -1,0 +1,46 @@
+﻿<Window x:Class="speedy_wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:speedy_wpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <WebBrowser x:Name="Web" Grid.Column="0"/>
+        <Grid Margin="12,0" Grid.Column="1">
+            
+            <StackPanel Orientation="Horizontal">
+                <TextBox x:Name="comPortTxt" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="12,6"/>
+                <Button x:Name="connectBtn" Content="Connect" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="12,6"/>
+            </StackPanel>
+            <StackPanel Orientation="Vertical" VerticalAlignment="Center">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" Grid.Column="0" Text="Speed" Margin="12,6"/>
+                    <TextBlock Grid.Row="0" Grid.Column="1" Margin="12,6" x:Name="speedText" Text="0.0"/>
+
+                    <TextBlock Grid.Row="1" Grid.Column="0" Text="Latitude" Margin="12,6"/>
+                    <TextBlock Grid.Row="1" Grid.Column="1" Margin="12,6" x:Name="latText" Text="0.0"/>
+
+                    <TextBlock Grid.Row="2" Grid.Column="0" Text="Longtitude" Margin="12,6"/>
+                    <TextBlock Grid.Row="2" Grid.Column="1" Margin="12,6" x:Name="lonText" Text="0.0"/>
+                </Grid>
+                
+            </StackPanel>
+            
+        </Grid>
+    </Grid>
+</Window>
