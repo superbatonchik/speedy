@@ -1,4 +1,5 @@
 *.suo
 Debug
+Release
 __vm
 chrome-speedy

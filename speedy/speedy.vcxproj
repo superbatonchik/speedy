@@ -47,10 +47,10 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\SoftwareSerial\src;F:\Documents\Arduino\libraries\TinyGPS-13;C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\SoftwareSerial\src\utility;F:\Documents\Arduino\libraries\TinyGPS-13\utility;C:\Program Files (x86)\Arduino\libraries;C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries;F:\Documents\Arduino\libraries;C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino;C:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\mega;F:\Repository\speedy\speedy;C:\Program Files (x86)\Arduino\hardware\tools\avr/avr/include/;C:\Program Files (x86)\Arduino\hardware\tools\avr//avr/include/avr/;C:\Program Files (x86)\Arduino\hardware\tools\avr/lib\gcc\avr\4.8.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\Documents\Arduino\libraries\pcd8544;C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\SoftwareSerial\src;F:\Documents\Arduino\libraries\TinyGPS-13;F:\Documents\Arduino\libraries\pcd8544\utility;C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\SoftwareSerial\src\utility;F:\Documents\Arduino\libraries\TinyGPS-13\utility;C:\Program Files (x86)\Arduino\libraries;C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries;F:\Documents\Arduino\libraries;C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino;C:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\mega;F:\Repository\speedy\speedy;C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino;C:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\mega;F:\Documents\Arduino\libraries\pcd8544;C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\SoftwareSerial\src;F:\Documents\Arduino\libraries\TinyGPS-13;C:\Program Files (x86)\Arduino\libraries;C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries;C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\3spte3gf.dao\Micro Platforms\default\debuggers;F:\Documents\Arduino\libraries;C:\Program Files (x86)\Arduino\hardware\tools\avr/avr/include/;C:\Program Files (x86)\Arduino\hardware\tools\avr//avr/include/avr/;C:\Program Files (x86)\Arduino\hardware\tools\avr/lib\gcc\avr\4.8.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>F:\Repository\speedy\speedy\__vm\.speedy.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
-      <PreprocessorDefinitions>__AVR_ATmega1280__;_VMDEBUG=1;F_CPU=16000000L;ARDUINO=106012;ARDUINO_AVR_MEGA;ARDUINO_ARCH_AVR;__cplusplus=201103L;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>__AVR_ATmega1280__;F_CPU=16000000L;ARDUINO=106012;ARDUINO_AVR_MEGA;ARDUINO_ARCH_AVR;__cplusplus=201103L;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -59,10 +59,14 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
-      <Optimization>MaxSpeed</Optimization>
+      <Optimization>Disabled</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>F:\Documents\Arduino\libraries\pcd8544;C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\SoftwareSerial\src;F:\Documents\Arduino\libraries\TinyGPS-13;F:\Documents\Arduino\libraries\pcd8544\utility;C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\SoftwareSerial\src\utility;F:\Documents\Arduino\libraries\TinyGPS-13\utility;C:\Program Files (x86)\Arduino\libraries;C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries;F:\Documents\Arduino\libraries;C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino;C:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\mega;F:\Repository\speedy\speedy;C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino;C:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\mega;F:\Documents\Arduino\libraries\pcd8544;C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\SoftwareSerial\src;F:\Documents\Arduino\libraries\TinyGPS-13;C:\Program Files (x86)\Arduino\libraries;C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries;C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\3spte3gf.dao\Micro Platforms\default\debuggers;F:\Documents\Arduino\libraries;C:\Program Files (x86)\Arduino\hardware\tools\avr/avr/include/;C:\Program Files (x86)\Arduino\hardware\tools\avr//avr/include/avr/;C:\Program Files (x86)\Arduino\hardware\tools\avr/lib\gcc\avr\4.8.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>F:\Repository\speedy\speedy\__vm\.speedy.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <PreprocessorDefinitions>__AVR_ATmega1280__;F_CPU=16000000L;ARDUINO=106012;ARDUINO_AVR_MEGA;ARDUINO_ARCH_AVR;__cplusplus=201103L;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
